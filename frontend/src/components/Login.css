@@ -1,0 +1,49 @@
+.bg-secondary {
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.max-w-md {
+    max-width: 400px;
+}
+
+.form-control {
+    padding-left: 3rem;
+}
+
+.form-icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6c757d;
+}
+
+.position-relative .form-control:focus + .form-icon {
+    color: #007bff;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+}
+
+.bg-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.translate-middle-x {
+    transform: translateX(-50%);
+}

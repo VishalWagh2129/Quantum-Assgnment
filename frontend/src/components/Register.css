@@ -1,0 +1,59 @@
+.bg-secondary {
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.max-w-md {
+    max-width: 400px;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-control {
+    flex: 1;
+    padding-left: 2.5rem; /* Add some padding to the left to account for the icon */
+}
+
+.form-icon {
+    position: absolute;
+    left: 1rem;
+    color: #6c757d;
+}
+
+.form-group .form-control:focus + .form-icon {
+    color: #007bff;
+}
+
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    border: none;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(45deg, #0056b3, #007bff);
+}
+
+.bg-primary {
+    background: linear-gradient(45deg, #007bff, #0056b3);
+}
+
+.text-secondary {
+    color: #6c757d;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.translate-middle-x {
+    transform: translateX(-50%);
+}
+
+.rounded-top {
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
